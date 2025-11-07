@@ -1,0 +1,31 @@
+int mystery(int arr[], int size)
+ [B6 (ENTRY)]                                                                
+   Succs (1): B5                                                             
+
+ [B1]                                                                        
+   7
+   Preds (1): B4
+   Succs (1): B0
+
+ [B2]                                                                        
+   4
+   Preds (1): B3
+   Succs (1): B4
+
+ [B3]                                                                        
+   5
+   Preds (1): B4
+   Succs (1): B2
+
+ [B4]                                                                        
+   4
+   Preds (2): B2 B5                                                          
+   Succs (2): B3 B1
+
+ [B5]                                                                        
+   2,3
+   Preds (1): B6
+   Succs (1): B4
+
+ [B0 (EXIT)]                                                                 
+   Preds (1): B1  

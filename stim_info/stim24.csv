@@ -1,0 +1,178 @@
+node,text,kind,Line,Column,Parental
+operate,"long long operate(int n){
+  switch (n){
+    case 0:
+      return 0;
+    case 1:
+      return 1;
+    default:
+      long long mystery1=0;
+      long long mystery2=1;
+      for (int i=2; i<n; ++i){
+        long long mystery3=mystery1
+        mystery1=mystery2;
+        mystery2=mystery3;
+      }
+      return mystery2;
+      }
+ }",CursorKind.FUNCTION_DECL,1,11,CursorKind.TRANSLATION_UNIT(stim24.cpp)
+n,int n,CursorKind.PARM_DECL,1,23,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)
+"{
+  switch (n){
+    case 0:
+      return 0;
+    case 1:
+      return 1;
+    default:
+      long long mystery1=0;
+      long long mystery2=1;
+      for (int i=2; i<n; ++i){
+        long long mystery3=mystery1
+        mystery1=mystery2;
+        mystery2=mystery3;
+      }
+      return mystery2;
+      }
+ }","{
+  switch (n){
+    case 0:
+      return 0;
+    case 1:
+      return 1;
+    default:
+      long long mystery1=0;
+      long long mystery2=1;
+      for (int i=2; i<n; ++i){
+        long long mystery3=mystery1
+        mystery1=mystery2;
+        mystery2=mystery3;
+      }
+      return mystery2;
+      }
+ }",CursorKind.COMPOUND_STMT,1,25,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)
+"switch (n){
+    case 0:
+      return 0;
+    case 1:
+      return 1;
+    default:
+      long long mystery1=0;
+      long long mystery2=1;
+      for (int i=2; i<n; ++i){
+        long long mystery3=mystery1
+        mystery1=mystery2;
+        mystery2=mystery3;
+      }
+      return mystery2;
+      }","switch (n){
+    case 0:
+      return 0;
+    case 1:
+      return 1;
+    default:
+      long long mystery1=0;
+      long long mystery2=1;
+      for (int i=2; i<n; ++i){
+        long long mystery3=mystery1
+        mystery1=mystery2;
+        mystery2=mystery3;
+      }
+      return mystery2;
+      }",CursorKind.SWITCH_STMT,2,3,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()
+n,n,CursorKind.UNEXPOSED_EXPR,2,11,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()
+n,n,CursorKind.DECL_REF_EXPR,2,11,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.UNEXPOSED_EXPR(n)
+"{
+    case 0:
+      return 0;
+    case 1:
+      return 1;
+    default:
+      long long mystery1=0;
+      long long mystery2=1;
+      for (int i=2; i<n; ++i){
+        long long mystery3=mystery1
+        mystery1=mystery2;
+        mystery2=mystery3;
+      }
+      return mystery2;
+      }","{
+    case 0:
+      return 0;
+    case 1:
+      return 1;
+    default:
+      long long mystery1=0;
+      long long mystery2=1;
+      for (int i=2; i<n; ++i){
+        long long mystery3=mystery1
+        mystery1=mystery2;
+        mystery2=mystery3;
+      }
+      return mystery2;
+      }",CursorKind.COMPOUND_STMT,2,13,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()
+"case 0:
+      return 0","case 0:
+      return 0",CursorKind.CASE_STMT,3,5,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()
+0,0,CursorKind.INTEGER_LITERAL,3,10,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.CASE_STMT()
+return 0,return,CursorKind.RETURN_STMT,4,7,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.CASE_STMT()
+0,0,CursorKind.UNEXPOSED_EXPR,4,14,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.CASE_STMT()->CursorKind.RETURN_STMT()
+0,0,CursorKind.INTEGER_LITERAL,4,14,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.CASE_STMT()->CursorKind.RETURN_STMT()->CursorKind.UNEXPOSED_EXPR()
+"case 1:
+      return 1","case 1:
+      return 1",CursorKind.CASE_STMT,5,5,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()
+1,1,CursorKind.INTEGER_LITERAL,5,10,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.CASE_STMT()
+return 1,return,CursorKind.RETURN_STMT,6,7,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.CASE_STMT()
+1,1,CursorKind.UNEXPOSED_EXPR,6,14,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.CASE_STMT()->CursorKind.RETURN_STMT()
+1,1,CursorKind.INTEGER_LITERAL,6,14,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.CASE_STMT()->CursorKind.RETURN_STMT()->CursorKind.UNEXPOSED_EXPR()
+"default:
+      long long mystery1=0;","default:
+      long long mystery1=0;",CursorKind.DEFAULT_STMT,7,5,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()
+long long mystery1=0;,long long mystery1=0;,CursorKind.DECL_STMT,8,7,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.DEFAULT_STMT()
+mystery1,long long mystery1=0,CursorKind.VAR_DECL,8,17,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.DEFAULT_STMT()->CursorKind.DECL_STMT()
+0,0,CursorKind.UNEXPOSED_EXPR,8,26,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.DEFAULT_STMT()->CursorKind.DECL_STMT()->CursorKind.VAR_DECL(mystery1)
+0,0,CursorKind.INTEGER_LITERAL,8,26,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.DEFAULT_STMT()->CursorKind.DECL_STMT()->CursorKind.VAR_DECL(mystery1)->CursorKind.UNEXPOSED_EXPR()
+long long mystery2=1;,long long mystery2=1;,CursorKind.DECL_STMT,9,7,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()
+mystery2,long long mystery2=1,CursorKind.VAR_DECL,9,17,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()
+1,1,CursorKind.UNEXPOSED_EXPR,9,26,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()->CursorKind.VAR_DECL(mystery2)
+1,1,CursorKind.INTEGER_LITERAL,9,26,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()->CursorKind.VAR_DECL(mystery2)->CursorKind.UNEXPOSED_EXPR()
+"for (int i=2; i<n; ++i){
+        long long mystery3=mystery1
+        mystery1=mystery2;
+        mystery2=mystery3;
+      }","for (int i=2; i<n; ++i){
+        long long mystery3=mystery1
+        mystery1=mystery2;
+        mystery2=mystery3;
+      }",CursorKind.FOR_STMT,10,7,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()
+int i=2;,int i=2;,CursorKind.DECL_STMT,10,12,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()
+i,int i=2,CursorKind.VAR_DECL,10,16,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.DECL_STMT()
+2,2,CursorKind.INTEGER_LITERAL,10,18,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.DECL_STMT()->CursorKind.VAR_DECL(i)
+i<n,<,CursorKind.BINARY_OPERATOR,10,21,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()
+i,i,CursorKind.UNEXPOSED_EXPR,10,21,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.BINARY_OPERATOR()
+i,i,CursorKind.DECL_REF_EXPR,10,21,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.BINARY_OPERATOR()->CursorKind.UNEXPOSED_EXPR(i)
+n,n,CursorKind.UNEXPOSED_EXPR,10,23,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.BINARY_OPERATOR()
+n,n,CursorKind.DECL_REF_EXPR,10,23,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.BINARY_OPERATOR()->CursorKind.UNEXPOSED_EXPR(n)
+++i,++i,CursorKind.UNARY_OPERATOR,10,26,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()
+i,i,CursorKind.DECL_REF_EXPR,10,28,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.UNARY_OPERATOR()
+"{
+        long long mystery3=mystery1
+        mystery1=mystery2;
+        mystery2=mystery3;
+      }","{
+        long long mystery3=mystery1
+        mystery1=mystery2;
+        mystery2=mystery3;
+      }",CursorKind.COMPOUND_STMT,10,30,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()
+"long long mystery3=mystery1
+        mystery1","long long mystery3=mystery1
+        mystery1",CursorKind.DECL_STMT,11,9,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.COMPOUND_STMT()
+mystery3,long long mystery3=mystery1,CursorKind.VAR_DECL,11,19,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()
+mystery1,mystery1,CursorKind.UNEXPOSED_EXPR,11,28,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()->CursorKind.VAR_DECL(mystery3)
+mystery1,mystery1,CursorKind.DECL_REF_EXPR,11,28,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()->CursorKind.VAR_DECL(mystery3)->CursorKind.UNEXPOSED_EXPR(mystery1)
+mystery2=mystery3,=,CursorKind.BINARY_OPERATOR,13,9,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.COMPOUND_STMT()
+mystery2,mystery2,CursorKind.DECL_REF_EXPR,13,9,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.BINARY_OPERATOR()
+mystery3,mystery3,CursorKind.UNEXPOSED_EXPR,13,18,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.BINARY_OPERATOR()
+mystery3,mystery3,CursorKind.DECL_REF_EXPR,13,18,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.BINARY_OPERATOR()->CursorKind.UNEXPOSED_EXPR(mystery3)
+return mystery2,return,CursorKind.RETURN_STMT,15,7,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()
+mystery2,mystery2,CursorKind.UNEXPOSED_EXPR,15,14,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.RETURN_STMT()
+mystery2,mystery2,CursorKind.DECL_REF_EXPR,15,14,CursorKind.TRANSLATION_UNIT(stim24.cpp)->CursorKind.FUNCTION_DECL(operate)->CursorKind.COMPOUND_STMT()->CursorKind.SWITCH_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.RETURN_STMT()->CursorKind.UNEXPOSED_EXPR(mystery2)

@@ -1,0 +1,31 @@
+node,text,kind,Line,Column,Parental
+mystery,"int mystery (int arr[], int size){
+  int expectedSum = arr[0] + (arr[size - 1] * arr[size - 1] + 1) / 2;
+  int actualSum = 0;
+  for (int i : arr) {
+    actualSum += i;
+  }
+  int result = expectedSum - actualSum;
+  return result;
+}",CursorKind.FUNCTION_DECL,1,5,CursorKind.TRANSLATION_UNIT(stim1.cpp)
+arr,int arr[],CursorKind.PARM_DECL,1,18,CursorKind.TRANSLATION_UNIT(stim1.cpp)->CursorKind.FUNCTION_DECL(mystery)
+size,int size,CursorKind.PARM_DECL,1,29,CursorKind.TRANSLATION_UNIT(stim1.cpp)->CursorKind.FUNCTION_DECL(mystery)
+expectedSum,int expectedSum = arr[0] + (arr[size - 1] * arr[size - 1] + 1) / 2,CursorKind.VAR_DECL,2,7,CursorKind.TRANSLATION_UNIT(stim1.cpp)->CursorKind.FUNCTION_DECL(mystery)->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()
+arr[0],arr[0],CursorKind.UNEXPOSED_EXPR,2,21,CursorKind.TRANSLATION_UNIT(stim1.cpp)->CursorKind.FUNCTION_DECL(mystery)->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()->CursorKind.VAR_DECL(expectedSum)->CursorKind.BINARY_OPERATOR()
+arr,arr,CursorKind.UNEXPOSED_EXPR,2,21,CursorKind.TRANSLATION_UNIT(stim1.cpp)->CursorKind.FUNCTION_DECL(mystery)->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()->CursorKind.VAR_DECL(expectedSum)->CursorKind.BINARY_OPERATOR()->CursorKind.UNEXPOSED_EXPR()->CursorKind.ARRAY_SUBSCRIPT_EXPR()
+0,0,CursorKind.INTEGER_LITERAL,2,25,CursorKind.TRANSLATION_UNIT(stim1.cpp)->CursorKind.FUNCTION_DECL(mystery)->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()->CursorKind.VAR_DECL(expectedSum)->CursorKind.BINARY_OPERATOR()->CursorKind.UNEXPOSED_EXPR()->CursorKind.ARRAY_SUBSCRIPT_EXPR()
+arr,arr,CursorKind.UNEXPOSED_EXPR,2,31,CursorKind.TRANSLATION_UNIT(stim1.cpp)->CursorKind.FUNCTION_DECL(mystery)->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()->CursorKind.VAR_DECL(expectedSum)->CursorKind.BINARY_OPERATOR()->CursorKind.BINARY_OPERATOR()->CursorKind.PAREN_EXPR()->CursorKind.BINARY_OPERATOR()->CursorKind.BINARY_OPERATOR()->CursorKind.UNEXPOSED_EXPR()->CursorKind.ARRAY_SUBSCRIPT_EXPR()
+size,size,CursorKind.UNEXPOSED_EXPR,2,35,CursorKind.TRANSLATION_UNIT(stim1.cpp)->CursorKind.FUNCTION_DECL(mystery)->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()->CursorKind.VAR_DECL(expectedSum)->CursorKind.BINARY_OPERATOR()->CursorKind.BINARY_OPERATOR()->CursorKind.PAREN_EXPR()->CursorKind.BINARY_OPERATOR()->CursorKind.BINARY_OPERATOR()->CursorKind.UNEXPOSED_EXPR()->CursorKind.ARRAY_SUBSCRIPT_EXPR()->CursorKind.BINARY_OPERATOR()
+1,1,CursorKind.INTEGER_LITERAL,2,42,CursorKind.TRANSLATION_UNIT(stim1.cpp)->CursorKind.FUNCTION_DECL(mystery)->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()->CursorKind.VAR_DECL(expectedSum)->CursorKind.BINARY_OPERATOR()->CursorKind.BINARY_OPERATOR()->CursorKind.PAREN_EXPR()->CursorKind.BINARY_OPERATOR()->CursorKind.BINARY_OPERATOR()->CursorKind.UNEXPOSED_EXPR()->CursorKind.ARRAY_SUBSCRIPT_EXPR()->CursorKind.BINARY_OPERATOR()
+arr,arr,CursorKind.UNEXPOSED_EXPR,2,47,CursorKind.TRANSLATION_UNIT(stim1.cpp)->CursorKind.FUNCTION_DECL(mystery)->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()->CursorKind.VAR_DECL(expectedSum)->CursorKind.BINARY_OPERATOR()->CursorKind.BINARY_OPERATOR()->CursorKind.PAREN_EXPR()->CursorKind.BINARY_OPERATOR()->CursorKind.BINARY_OPERATOR()->CursorKind.UNEXPOSED_EXPR()->CursorKind.ARRAY_SUBSCRIPT_EXPR()
+size,size,CursorKind.UNEXPOSED_EXPR,2,51,CursorKind.TRANSLATION_UNIT(stim1.cpp)->CursorKind.FUNCTION_DECL(mystery)->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()->CursorKind.VAR_DECL(expectedSum)->CursorKind.BINARY_OPERATOR()->CursorKind.BINARY_OPERATOR()->CursorKind.PAREN_EXPR()->CursorKind.BINARY_OPERATOR()->CursorKind.BINARY_OPERATOR()->CursorKind.UNEXPOSED_EXPR()->CursorKind.ARRAY_SUBSCRIPT_EXPR()->CursorKind.BINARY_OPERATOR()
+1,1,CursorKind.INTEGER_LITERAL,2,58,CursorKind.TRANSLATION_UNIT(stim1.cpp)->CursorKind.FUNCTION_DECL(mystery)->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()->CursorKind.VAR_DECL(expectedSum)->CursorKind.BINARY_OPERATOR()->CursorKind.BINARY_OPERATOR()->CursorKind.PAREN_EXPR()->CursorKind.BINARY_OPERATOR()->CursorKind.BINARY_OPERATOR()->CursorKind.UNEXPOSED_EXPR()->CursorKind.ARRAY_SUBSCRIPT_EXPR()->CursorKind.BINARY_OPERATOR()
+1,1,CursorKind.INTEGER_LITERAL,2,63,CursorKind.TRANSLATION_UNIT(stim1.cpp)->CursorKind.FUNCTION_DECL(mystery)->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()->CursorKind.VAR_DECL(expectedSum)->CursorKind.BINARY_OPERATOR()->CursorKind.BINARY_OPERATOR()->CursorKind.PAREN_EXPR()->CursorKind.BINARY_OPERATOR()
+2,2,CursorKind.INTEGER_LITERAL,2,68,CursorKind.TRANSLATION_UNIT(stim1.cpp)->CursorKind.FUNCTION_DECL(mystery)->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()->CursorKind.VAR_DECL(expectedSum)->CursorKind.BINARY_OPERATOR()->CursorKind.BINARY_OPERATOR()
+actualSum,int actualSum = 0,CursorKind.VAR_DECL,3,7,CursorKind.TRANSLATION_UNIT(stim1.cpp)->CursorKind.FUNCTION_DECL(mystery)->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()
+0,0,CursorKind.INTEGER_LITERAL,3,19,CursorKind.TRANSLATION_UNIT(stim1.cpp)->CursorKind.FUNCTION_DECL(mystery)->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()->CursorKind.VAR_DECL(actualSum)
+result,int result = expectedSum - actualSum,CursorKind.VAR_DECL,7,7,CursorKind.TRANSLATION_UNIT(stim1.cpp)->CursorKind.FUNCTION_DECL(mystery)->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()
+expectedSum,expectedSum,CursorKind.UNEXPOSED_EXPR,7,16,CursorKind.TRANSLATION_UNIT(stim1.cpp)->CursorKind.FUNCTION_DECL(mystery)->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()->CursorKind.VAR_DECL(result)->CursorKind.BINARY_OPERATOR()
+actualSum,actualSum,CursorKind.UNEXPOSED_EXPR,7,30,CursorKind.TRANSLATION_UNIT(stim1.cpp)->CursorKind.FUNCTION_DECL(mystery)->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()->CursorKind.VAR_DECL(result)->CursorKind.BINARY_OPERATOR()
+return,return,CursorKind.RETURN_STMT,8,3,CursorKind.TRANSLATION_UNIT(stim1.cpp)->CursorKind.FUNCTION_DECL(mystery)->CursorKind.COMPOUND_STMT()
+result,result,CursorKind.UNEXPOSED_EXPR,8,10,CursorKind.TRANSLATION_UNIT(stim1.cpp)->CursorKind.FUNCTION_DECL(mystery)->CursorKind.COMPOUND_STMT()->CursorKind.RETURN_STMT()

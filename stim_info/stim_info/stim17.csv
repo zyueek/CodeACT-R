@@ -1,0 +1,115 @@
+node,text,kind,Line,Column,Parental
+using namespace std,using namespace std,CursorKind.USING_DIRECTIVE,2,17,CursorKind.TRANSLATION_UNIT(stim17.cpp)
+std,std,CursorKind.NAMESPACE_REF,2,17,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.USING_DIRECTIVE()
+main,"int main()
+{
+  for (int n=10;n>0;n--)
+  {
+  cout<<n<<"", "";
+  if(n==3)
+  {
+  cout<<""countdonw aborted!"";
+  break;
+  }
+  }
+ }",CursorKind.FUNCTION_DECL,3,5,CursorKind.TRANSLATION_UNIT(stim17.cpp)
+"{
+  for (int n=10;n>0;n--)
+  {
+  cout<<n<<"", "";
+  if(n==3)
+  {
+  cout<<""countdonw aborted!"";
+  break;
+  }
+  }
+ }","{
+  for (int n=10;n>0;n--)
+  {
+  cout<<n<<"", "";
+  if(n==3)
+  {
+  cout<<""countdonw aborted!"";
+  break;
+  }
+  }
+ }",CursorKind.COMPOUND_STMT,4,1,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main)
+"for (int n=10;n>0;n--)
+  {
+  cout<<n<<"", "";
+  if(n==3)
+  {
+  cout<<""countdonw aborted!"";
+  break;
+  }
+  }","for (int n=10;n>0;n--)
+  {
+  cout<<n<<"", "";
+  if(n==3)
+  {
+  cout<<""countdonw aborted!"";
+  break;
+  }
+  }",CursorKind.FOR_STMT,5,3,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT()
+int n=10;,int n=10;,CursorKind.DECL_STMT,5,8,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT()
+n,int n=10,CursorKind.VAR_DECL,5,12,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.DECL_STMT()
+10,10,CursorKind.INTEGER_LITERAL,5,14,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.DECL_STMT() -> CursorKind.VAR_DECL(n)
+n>0,n>0,CursorKind.BINARY_OPERATOR,5,17,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT()
+n,n,CursorKind.UNEXPOSED_EXPR,5,17,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.BINARY_OPERATOR()
+n,n,CursorKind.DECL_REF_EXPR,5,17,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.BINARY_OPERATOR() -> CursorKind.UNEXPOSED_EXPR(n)
+0,0,CursorKind.INTEGER_LITERAL,5,19,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.BINARY_OPERATOR()
+n--,n--,CursorKind.UNARY_OPERATOR,5,21,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT()
+n,n,CursorKind.DECL_REF_EXPR,5,21,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.UNARY_OPERATOR()
+"{
+  cout<<n<<"", "";
+  if(n==3)
+  {
+  cout<<""countdonw aborted!"";
+  break;
+  }
+  }","{
+  cout<<n<<"", "";
+  if(n==3)
+  {
+  cout<<""countdonw aborted!"";
+  break;
+  }
+  }",CursorKind.COMPOUND_STMT,6,3,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT()
+operator<<,"cout<<n<<"", """,CursorKind.CALL_EXPR,7,3,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.COMPOUND_STMT()
+operator<<,cout<<n,CursorKind.CALL_EXPR,7,3,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.COMPOUND_STMT() -> CursorKind.CALL_EXPR(operator<<)
+cout,cout,CursorKind.DECL_REF_EXPR,7,3,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.COMPOUND_STMT() -> CursorKind.CALL_EXPR(operator<<) -> CursorKind.CALL_EXPR(operator<<)
+operator<<,<<,CursorKind.UNEXPOSED_EXPR,7,7,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.COMPOUND_STMT() -> CursorKind.CALL_EXPR(operator<<) -> CursorKind.CALL_EXPR(operator<<)
+operator<<,<<,CursorKind.DECL_REF_EXPR,7,7,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.COMPOUND_STMT() -> CursorKind.CALL_EXPR(operator<<) -> CursorKind.CALL_EXPR(operator<<) -> CursorKind.UNEXPOSED_EXPR(operator<<)
+n,n,CursorKind.UNEXPOSED_EXPR,7,9,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.COMPOUND_STMT() -> CursorKind.CALL_EXPR(operator<<) -> CursorKind.CALL_EXPR(operator<<)
+n,n,CursorKind.DECL_REF_EXPR,7,9,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.COMPOUND_STMT() -> CursorKind.CALL_EXPR(operator<<) -> CursorKind.CALL_EXPR(operator<<) -> CursorKind.UNEXPOSED_EXPR(n)
+operator<<,<<,CursorKind.UNEXPOSED_EXPR,7,10,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.COMPOUND_STMT() -> CursorKind.CALL_EXPR(operator<<)
+operator<<,<<,CursorKind.DECL_REF_EXPR,7,10,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.COMPOUND_STMT() -> CursorKind.CALL_EXPR(operator<<) -> CursorKind.UNEXPOSED_EXPR(operator<<)
+""", """,""", """,CursorKind.UNEXPOSED_EXPR,7,12,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.COMPOUND_STMT() -> CursorKind.CALL_EXPR(operator<<)
+""", """,""", """,CursorKind.STRING_LITERAL,7,12,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.COMPOUND_STMT() -> CursorKind.CALL_EXPR(operator<<) -> CursorKind.UNEXPOSED_EXPR()
+"if(n==3)
+  {
+  cout<<""countdonw aborted!"";
+  break;
+  }","if(n==3)
+  {
+  cout<<""countdonw aborted!"";
+  break;
+  }",CursorKind.IF_STMT,8,3,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.COMPOUND_STMT()
+n==3,n==3,CursorKind.BINARY_OPERATOR,8,6,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.COMPOUND_STMT() -> CursorKind.IF_STMT()
+n,n,CursorKind.UNEXPOSED_EXPR,8,6,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.COMPOUND_STMT() -> CursorKind.IF_STMT() -> CursorKind.BINARY_OPERATOR()
+n,n,CursorKind.DECL_REF_EXPR,8,6,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.COMPOUND_STMT() -> CursorKind.IF_STMT() -> CursorKind.BINARY_OPERATOR() -> CursorKind.UNEXPOSED_EXPR(n)
+3,3,CursorKind.INTEGER_LITERAL,8,9,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.COMPOUND_STMT() -> CursorKind.IF_STMT() -> CursorKind.BINARY_OPERATOR()
+"{
+  cout<<""countdonw aborted!"";
+  break;
+  }","{
+  cout<<""countdonw aborted!"";
+  break;
+  }",CursorKind.COMPOUND_STMT,9,3,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.COMPOUND_STMT() -> CursorKind.IF_STMT()
+operator<<,"cout<<""countdonw aborted!""",CursorKind.CALL_EXPR,10,3,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.COMPOUND_STMT() -> CursorKind.IF_STMT() -> CursorKind.COMPOUND_STMT()
+cout,cout,CursorKind.DECL_REF_EXPR,10,3,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.COMPOUND_STMT() -> CursorKind.IF_STMT() -> CursorKind.COMPOUND_STMT() -> CursorKind.CALL_EXPR(operator<<)
+operator<<,<<,CursorKind.UNEXPOSED_EXPR,10,7,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.COMPOUND_STMT() -> CursorKind.IF_STMT() -> CursorKind.COMPOUND_STMT() -> CursorKind.CALL_EXPR(operator<<)
+operator<<,<<,CursorKind.DECL_REF_EXPR,10,7,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.COMPOUND_STMT() -> CursorKind.IF_STMT() -> CursorKind.COMPOUND_STMT() -> CursorKind.CALL_EXPR(operator<<) -> CursorKind.UNEXPOSED_EXPR(operator<<)
+"""countdonw aborted!""","""countdonw aborted!""",CursorKind.UNEXPOSED_EXPR,10,9,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.COMPOUND_STMT() -> CursorKind.IF_STMT() -> CursorKind.COMPOUND_STMT() -> CursorKind.CALL_EXPR(operator<<)
+"""countdonw aborted!""","""countdonw aborted!""",CursorKind.STRING_LITERAL,10,9,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.COMPOUND_STMT() -> CursorKind.IF_STMT() -> CursorKind.COMPOUND_STMT() -> CursorKind.CALL_EXPR(operator<<) -> CursorKind.UNEXPOSED_EXPR()
+break,break,CursorKind.BREAK_STMT,11,3,CursorKind.TRANSLATION_UNIT(stim17.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.FOR_STMT() -> CursorKind.COMPOUND_STMT() -> CursorKind.IF_STMT() -> CursorKind.COMPOUND_STMT()

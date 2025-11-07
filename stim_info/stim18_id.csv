@@ -1,0 +1,38 @@
+node,text,kind,Line,Column,Parental
+std.1,std.1,CursorKind.NAMESPACE_REF,3,17,CursorKind.TRANSLATION_UNIT(stim18.cpp)->CursorKind.USING_DIRECTIVE()
+compute.1,"double compute(int n){
+  double output = 0.0;
+  for (int i = 1; i <= n; ++i ){
+    if(i % 2 == 0){
+    output -=1 / pow (i, 2.0);
+    }else{
+    output += 1 / pow (i, 2.0);
+    }
+  }
+  return output;
+}.1",CursorKind.FUNCTION_DECL,4,8,CursorKind.TRANSLATION_UNIT(stim18.cpp)
+n.1,int n.1,CursorKind.PARM_DECL,4,20,CursorKind.TRANSLATION_UNIT(stim18.cpp)->CursorKind.FUNCTION_DECL(compute)
+output.1,double output = 0.0.1,CursorKind.VAR_DECL,5,10,CursorKind.TRANSLATION_UNIT(stim18.cpp)->CursorKind.FUNCTION_DECL(compute)->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()
+0.0.1,0.0.1,CursorKind.FLOATING_LITERAL,5,19,CursorKind.TRANSLATION_UNIT(stim18.cpp)->CursorKind.FUNCTION_DECL(compute)->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()->CursorKind.VAR_DECL(output)
+i.1,int i = 1.1,CursorKind.VAR_DECL,6,12,CursorKind.TRANSLATION_UNIT(stim18.cpp)->CursorKind.FUNCTION_DECL(compute)->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.DECL_STMT()
+1.1,1.1,CursorKind.INTEGER_LITERAL,6,16,CursorKind.TRANSLATION_UNIT(stim18.cpp)->CursorKind.FUNCTION_DECL(compute)->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.DECL_STMT()->CursorKind.VAR_DECL(i)
+i.2,i.1,CursorKind.UNEXPOSED_EXPR,6,19,CursorKind.TRANSLATION_UNIT(stim18.cpp)->CursorKind.FUNCTION_DECL(compute)->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.BINARY_OPERATOR()
+n.2,n.1,CursorKind.UNEXPOSED_EXPR,6,24,CursorKind.TRANSLATION_UNIT(stim18.cpp)->CursorKind.FUNCTION_DECL(compute)->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.BINARY_OPERATOR()
+++i.1,++i.1,CursorKind.UNARY_OPERATOR,6,27,CursorKind.TRANSLATION_UNIT(stim18.cpp)->CursorKind.FUNCTION_DECL(compute)->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()
+i.3,i.2,CursorKind.DECL_REF_EXPR,6,29,CursorKind.TRANSLATION_UNIT(stim18.cpp)->CursorKind.FUNCTION_DECL(compute)->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.UNARY_OPERATOR()
+if.1,if.1,CursorKind.IF_STMT,7,5,CursorKind.TRANSLATION_UNIT(stim18.cpp)->CursorKind.FUNCTION_DECL(compute)->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.COMPOUND_STMT()
+i.4,i.3,CursorKind.UNEXPOSED_EXPR,7,8,CursorKind.TRANSLATION_UNIT(stim18.cpp)->CursorKind.FUNCTION_DECL(compute)->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.BINARY_OPERATOR()->CursorKind.BINARY_OPERATOR()
+2.1,2.1,CursorKind.INTEGER_LITERAL,7,12,CursorKind.TRANSLATION_UNIT(stim18.cpp)->CursorKind.FUNCTION_DECL(compute)->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.BINARY_OPERATOR()->CursorKind.BINARY_OPERATOR()
+0.1,0.1,CursorKind.INTEGER_LITERAL,7,17,CursorKind.TRANSLATION_UNIT(stim18.cpp)->CursorKind.FUNCTION_DECL(compute)->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.BINARY_OPERATOR()
+output.2,output.1,CursorKind.DECL_REF_EXPR,8,5,CursorKind.TRANSLATION_UNIT(stim18.cpp)->CursorKind.FUNCTION_DECL(compute)->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.COMPOUND_ASSIGNMENT_OPERATOR()
+1.2,1.2,CursorKind.UNEXPOSED_EXPR,8,14,CursorKind.TRANSLATION_UNIT(stim18.cpp)->CursorKind.FUNCTION_DECL(compute)->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.COMPOUND_ASSIGNMENT_OPERATOR()->CursorKind.BINARY_OPERATOR()
+pow.1,"pow (i, 2.0).1",CursorKind.CALL_EXPR,8,18,CursorKind.TRANSLATION_UNIT(stim18.cpp)->CursorKind.FUNCTION_DECL(compute)->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.COMPOUND_ASSIGNMENT_OPERATOR()->CursorKind.BINARY_OPERATOR()
+i.5,i.4,CursorKind.UNEXPOSED_EXPR,8,23,CursorKind.TRANSLATION_UNIT(stim18.cpp)->CursorKind.FUNCTION_DECL(compute)->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.COMPOUND_ASSIGNMENT_OPERATOR()->CursorKind.BINARY_OPERATOR()->CursorKind.CALL_EXPR(pow)
+2.0.1,2.0.1,CursorKind.FLOATING_LITERAL,8,26,CursorKind.TRANSLATION_UNIT(stim18.cpp)->CursorKind.FUNCTION_DECL(compute)->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.COMPOUND_ASSIGNMENT_OPERATOR()->CursorKind.BINARY_OPERATOR()->CursorKind.CALL_EXPR(pow)
+output.3,output.2,CursorKind.DECL_REF_EXPR,10,5,CursorKind.TRANSLATION_UNIT(stim18.cpp)->CursorKind.FUNCTION_DECL(compute)->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.COMPOUND_ASSIGNMENT_OPERATOR()
+1.3,1.3,CursorKind.UNEXPOSED_EXPR,10,15,CursorKind.TRANSLATION_UNIT(stim18.cpp)->CursorKind.FUNCTION_DECL(compute)->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.COMPOUND_ASSIGNMENT_OPERATOR()->CursorKind.BINARY_OPERATOR()
+pow.2,"pow (i, 2.0).2",CursorKind.CALL_EXPR,10,19,CursorKind.TRANSLATION_UNIT(stim18.cpp)->CursorKind.FUNCTION_DECL(compute)->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.COMPOUND_ASSIGNMENT_OPERATOR()->CursorKind.BINARY_OPERATOR()
+i.6,i.5,CursorKind.UNEXPOSED_EXPR,10,24,CursorKind.TRANSLATION_UNIT(stim18.cpp)->CursorKind.FUNCTION_DECL(compute)->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.COMPOUND_ASSIGNMENT_OPERATOR()->CursorKind.BINARY_OPERATOR()->CursorKind.CALL_EXPR(pow)
+2.0.2,2.0.2,CursorKind.FLOATING_LITERAL,10,27,CursorKind.TRANSLATION_UNIT(stim18.cpp)->CursorKind.FUNCTION_DECL(compute)->CursorKind.COMPOUND_STMT()->CursorKind.FOR_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.COMPOUND_ASSIGNMENT_OPERATOR()->CursorKind.BINARY_OPERATOR()->CursorKind.CALL_EXPR(pow)
+return.1,return.1,CursorKind.RETURN_STMT,13,3,CursorKind.TRANSLATION_UNIT(stim18.cpp)->CursorKind.FUNCTION_DECL(compute)->CursorKind.COMPOUND_STMT()
+output.4,output.3,CursorKind.UNEXPOSED_EXPR,13,10,CursorKind.TRANSLATION_UNIT(stim18.cpp)->CursorKind.FUNCTION_DECL(compute)->CursorKind.COMPOUND_STMT()->CursorKind.RETURN_STMT()

@@ -1,0 +1,48 @@
+node,text,kind,Line,Column,Parental
+std,std,CursorKind.NAMESPACE_REF,3,17,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.USING_DIRECTIVE()
+afunc,"std::list<int> afunc(const std::list<int>& numList){
+	std::list<int> edited;
+  for (int num : numList){
+  if(num == 0){
+  edited.push_front(num);
+  }
+  } for (int num : numList){
+  if (num != 0){
+  edited.push_back(num);
+  }
+  } return edited;
+  }",CursorKind.FUNCTION_DECL,4,16,CursorKind.TRANSLATION_UNIT(stim15.cpp)
+std,std,CursorKind.NAMESPACE_REF,4,1,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)
+list,list,CursorKind.TEMPLATE_REF,4,6,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)
+numList,const std::list<int>& numList,CursorKind.PARM_DECL,4,44,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)
+std,std,CursorKind.NAMESPACE_REF,4,28,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.PARM_DECL(numList)
+list,list,CursorKind.TEMPLATE_REF,4,33,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.PARM_DECL(numList)
+edited,std::list<int> edited,CursorKind.VAR_DECL,5,17,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()
+std,std,CursorKind.NAMESPACE_REF,5,2,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()->CursorKind.VAR_DECL(edited)
+list,list,CursorKind.TEMPLATE_REF,5,7,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()->CursorKind.VAR_DECL(edited)
+list,edited,CursorKind.CALL_EXPR,5,17,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()->CursorKind.VAR_DECL(edited)
+for,for,CursorKind.CXX_FOR_RANGE_STMT,6,3,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()
+num,int num :,CursorKind.VAR_DECL,6,12,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.CXX_FOR_RANGE_STMT()
+:,:,CursorKind.UNEXPOSED_EXPR,6,16,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.CXX_FOR_RANGE_STMT()->CursorKind.VAR_DECL(num)
+numList,numList,CursorKind.DECL_REF_EXPR,6,18,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.CXX_FOR_RANGE_STMT()
+if,if,CursorKind.IF_STMT,7,3,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.CXX_FOR_RANGE_STMT()->CursorKind.COMPOUND_STMT()
+num,num,CursorKind.UNEXPOSED_EXPR,7,6,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.CXX_FOR_RANGE_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.BINARY_OPERATOR()
+0,0,CursorKind.INTEGER_LITERAL,7,13,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.CXX_FOR_RANGE_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.BINARY_OPERATOR()
+push_front,edited.push_front(num),CursorKind.CALL_EXPR,8,3,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.CXX_FOR_RANGE_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()
+edited.push_front,edited.push_front,CursorKind.MEMBER_REF_EXPR,8,10,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.CXX_FOR_RANGE_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.CALL_EXPR(push_front)
+edited,edited,CursorKind.DECL_REF_EXPR,8,3,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.CXX_FOR_RANGE_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.CALL_EXPR(push_front)->CursorKind.MEMBER_REF_EXPR(push_front)
+num,num,CursorKind.UNEXPOSED_EXPR,8,21,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.CXX_FOR_RANGE_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.CALL_EXPR(push_front)
+for,for,CursorKind.CXX_FOR_RANGE_STMT,10,5,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()
+num,int num :,CursorKind.VAR_DECL,10,14,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.CXX_FOR_RANGE_STMT()
+:,:,CursorKind.UNEXPOSED_EXPR,10,18,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.CXX_FOR_RANGE_STMT()->CursorKind.VAR_DECL(num)
+numList,numList,CursorKind.DECL_REF_EXPR,10,20,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.CXX_FOR_RANGE_STMT()
+if,if,CursorKind.IF_STMT,11,3,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.CXX_FOR_RANGE_STMT()->CursorKind.COMPOUND_STMT()
+num,num,CursorKind.UNEXPOSED_EXPR,11,7,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.CXX_FOR_RANGE_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.BINARY_OPERATOR()
+0,0,CursorKind.INTEGER_LITERAL,11,14,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.CXX_FOR_RANGE_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.BINARY_OPERATOR()
+push_back,edited.push_back(num),CursorKind.CALL_EXPR,12,3,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.CXX_FOR_RANGE_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()
+edited.push_back,edited.push_back,CursorKind.MEMBER_REF_EXPR,12,10,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.CXX_FOR_RANGE_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.CALL_EXPR(push_back)
+edited,edited,CursorKind.DECL_REF_EXPR,12,3,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.CXX_FOR_RANGE_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.CALL_EXPR(push_back)->CursorKind.MEMBER_REF_EXPR(push_back)
+num,num,CursorKind.UNEXPOSED_EXPR,12,20,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.CXX_FOR_RANGE_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.CALL_EXPR(push_back)
+return,return,CursorKind.RETURN_STMT,14,5,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()
+list,edited,CursorKind.CALL_EXPR,14,12,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.RETURN_STMT()
+edited,edited,CursorKind.UNEXPOSED_EXPR,14,12,CursorKind.TRANSLATION_UNIT(stim15.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.RETURN_STMT()->CursorKind.CALL_EXPR(list)

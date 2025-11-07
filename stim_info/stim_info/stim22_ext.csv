@@ -1,0 +1,24 @@
+node,text,kind,Line,Column,Parental
+std,std,CursorKind.NAMESPACE_REF,3,17,CursorKind.TRANSLATION_UNIT(stim22.cpp)->CursorKind.USING_DIRECTIVE()
+afunc,"int afunc(int terms){
+  if (terms == 0){
+  return 1;
+  } else {
+  return std::pow(2, terms) +afunc(terms - 1);
+  }
+}",CursorKind.FUNCTION_DECL,4,5,CursorKind.TRANSLATION_UNIT(stim22.cpp)
+terms,int terms,CursorKind.PARM_DECL,4,15,CursorKind.TRANSLATION_UNIT(stim22.cpp)->CursorKind.FUNCTION_DECL(afunc)
+if,if,CursorKind.IF_STMT,5,3,CursorKind.TRANSLATION_UNIT(stim22.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()
+terms,terms,CursorKind.UNEXPOSED_EXPR,5,7,CursorKind.TRANSLATION_UNIT(stim22.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.BINARY_OPERATOR()
+0,0,CursorKind.INTEGER_LITERAL,5,16,CursorKind.TRANSLATION_UNIT(stim22.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.BINARY_OPERATOR()
+return,return,CursorKind.RETURN_STMT,6,3,CursorKind.TRANSLATION_UNIT(stim22.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()
+1,1,CursorKind.INTEGER_LITERAL,6,10,CursorKind.TRANSLATION_UNIT(stim22.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.RETURN_STMT()
+return,return,CursorKind.RETURN_STMT,8,3,CursorKind.TRANSLATION_UNIT(stim22.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()
+pow,"std::pow(2, terms)",CursorKind.CALL_EXPR,8,10,CursorKind.TRANSLATION_UNIT(stim22.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.RETURN_STMT()->CursorKind.UNEXPOSED_EXPR()->CursorKind.BINARY_OPERATOR()
+pow,std::pow,CursorKind.UNEXPOSED_EXPR,8,15,CursorKind.TRANSLATION_UNIT(stim22.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.RETURN_STMT()->CursorKind.UNEXPOSED_EXPR()->CursorKind.BINARY_OPERATOR()->CursorKind.CALL_EXPR(pow)
+std,std,CursorKind.NAMESPACE_REF,8,10,CursorKind.TRANSLATION_UNIT(stim22.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.RETURN_STMT()->CursorKind.UNEXPOSED_EXPR()->CursorKind.BINARY_OPERATOR()->CursorKind.CALL_EXPR(pow)->CursorKind.UNEXPOSED_EXPR(pow)->CursorKind.DECL_REF_EXPR(pow)
+2,2,CursorKind.INTEGER_LITERAL,8,19,CursorKind.TRANSLATION_UNIT(stim22.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.RETURN_STMT()->CursorKind.UNEXPOSED_EXPR()->CursorKind.BINARY_OPERATOR()->CursorKind.CALL_EXPR(pow)
+terms,terms,CursorKind.UNEXPOSED_EXPR,8,22,CursorKind.TRANSLATION_UNIT(stim22.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.RETURN_STMT()->CursorKind.UNEXPOSED_EXPR()->CursorKind.BINARY_OPERATOR()->CursorKind.CALL_EXPR(pow)
+afunc,afunc(terms - 1),CursorKind.UNEXPOSED_EXPR,8,30,CursorKind.TRANSLATION_UNIT(stim22.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.RETURN_STMT()->CursorKind.UNEXPOSED_EXPR()->CursorKind.BINARY_OPERATOR()
+terms,terms,CursorKind.UNEXPOSED_EXPR,8,36,CursorKind.TRANSLATION_UNIT(stim22.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.RETURN_STMT()->CursorKind.UNEXPOSED_EXPR()->CursorKind.BINARY_OPERATOR()->CursorKind.UNEXPOSED_EXPR(afunc)->CursorKind.CALL_EXPR(afunc)->CursorKind.BINARY_OPERATOR()
+1,1,CursorKind.INTEGER_LITERAL,8,44,CursorKind.TRANSLATION_UNIT(stim22.cpp)->CursorKind.FUNCTION_DECL(afunc)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.RETURN_STMT()->CursorKind.UNEXPOSED_EXPR()->CursorKind.BINARY_OPERATOR()->CursorKind.UNEXPOSED_EXPR(afunc)->CursorKind.CALL_EXPR(afunc)->CursorKind.BINARY_OPERATOR()

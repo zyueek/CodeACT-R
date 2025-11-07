@@ -1,0 +1,38 @@
+node,text,kind,Line,Column,Parental
+Point,"class Point{
+  public:
+  Point(){
+    std:cout << ""Constructor called"";
+  }
+}",CursorKind.CLASS_DECL,2,7,CursorKind.TRANSLATION_UNIT(stim5.cpp)
+public:,public:,CursorKind.CXX_ACCESS_SPEC_DECL,3,3,CursorKind.TRANSLATION_UNIT(stim5.cpp) -> CursorKind.CLASS_DECL(Point)
+Point,"Point(){
+    std:cout << ""Constructor called"";
+  }",CursorKind.CONSTRUCTOR,4,3,CursorKind.TRANSLATION_UNIT(stim5.cpp) -> CursorKind.CLASS_DECL(Point)
+"{
+    std:cout << ""Constructor called"";
+  }","{
+    std:cout << ""Constructor called"";
+  }",CursorKind.COMPOUND_STMT,4,10,CursorKind.TRANSLATION_UNIT(stim5.cpp) -> CursorKind.CLASS_DECL(Point) -> CursorKind.CONSTRUCTOR(Point)
+std,std:,CursorKind.LABEL_STMT,5,5,CursorKind.TRANSLATION_UNIT(stim5.cpp) -> CursorKind.CLASS_DECL(Point) -> CursorKind.CONSTRUCTOR(Point) -> CursorKind.COMPOUND_STMT()
+:,:,CursorKind.NULL_STMT,5,8,CursorKind.TRANSLATION_UNIT(stim5.cpp) -> CursorKind.CLASS_DECL(Point) -> CursorKind.CONSTRUCTOR(Point) -> CursorKind.COMPOUND_STMT() -> CursorKind.LABEL_STMT(std)
+main,"int main()
+{
+  Point t1, *t2;
+  return 0;
+}",CursorKind.FUNCTION_DECL,9,5,CursorKind.TRANSLATION_UNIT(stim5.cpp)
+"{
+  Point t1, *t2;
+  return 0;
+}","{
+  Point t1, *t2;
+  return 0;
+}",CursorKind.COMPOUND_STMT,10,1,CursorKind.TRANSLATION_UNIT(stim5.cpp) -> CursorKind.FUNCTION_DECL(main)
+"Point t1, *t2;","Point t1, *t2;",CursorKind.DECL_STMT,11,3,CursorKind.TRANSLATION_UNIT(stim5.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT()
+t1,Point t1,CursorKind.VAR_DECL,11,9,CursorKind.TRANSLATION_UNIT(stim5.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.DECL_STMT()
+class Point,Point,CursorKind.TYPE_REF,11,3,CursorKind.TRANSLATION_UNIT(stim5.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.DECL_STMT() -> CursorKind.VAR_DECL(t1)
+Point,t1,CursorKind.CALL_EXPR,11,9,CursorKind.TRANSLATION_UNIT(stim5.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.DECL_STMT() -> CursorKind.VAR_DECL(t1)
+t2,t2,CursorKind.VAR_DECL,11,14,CursorKind.TRANSLATION_UNIT(stim5.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.DECL_STMT()
+class Point,Point,CursorKind.TYPE_REF,11,3,CursorKind.TRANSLATION_UNIT(stim5.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.DECL_STMT() -> CursorKind.VAR_DECL(t2)
+return 0,return 0,CursorKind.RETURN_STMT,12,3,CursorKind.TRANSLATION_UNIT(stim5.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT()
+0,0,CursorKind.INTEGER_LITERAL,12,10,CursorKind.TRANSLATION_UNIT(stim5.cpp) -> CursorKind.FUNCTION_DECL(main) -> CursorKind.COMPOUND_STMT() -> CursorKind.RETURN_STMT()

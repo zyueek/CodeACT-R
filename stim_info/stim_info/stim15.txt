@@ -1,0 +1,15 @@
+#include <iostream>
+#include <list>
+using namespace std;
+std::list <int> afunc(const std::list<int>& numList){
+  std:list<int> edited;
+  for (int num : numlist){
+  if(num == 0){
+  edited.push_front(num);
+  }
+  } for (int num : numList){
+  if (num != 0){
+  edited.push_back(num);
+  }
+  } return edited;
+  }

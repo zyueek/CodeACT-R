@@ -1,0 +1,113 @@
+node,text,kind,Line,Column,Parental
+using namespace std,using namespace std,CursorKind.USING_DIRECTIVE,3,17,CursorKind.TRANSLATION_UNIT(stim13.cpp)
+std,std,CursorKind.NAMESPACE_REF,3,17,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.USING_DIRECTIVE()
+sequence,"std::vector<int> sequence(int start, int end, int diff){
+  std::vector<int> result;
+  if (start > end) {
+  return result;
+  }else{
+  while (start <= end) {
+  result.push_back(end);
+  end -= diff;
+  }
+  return result;
+  }
+}",CursorKind.FUNCTION_DECL,4,18,CursorKind.TRANSLATION_UNIT(stim13.cpp)
+std,std,CursorKind.NAMESPACE_REF,4,1,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)
+vector,vector,CursorKind.TEMPLATE_REF,4,6,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)
+start,int start,CursorKind.PARM_DECL,4,31,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)
+end,int end,CursorKind.PARM_DECL,4,42,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)
+diff,int diff,CursorKind.PARM_DECL,4,51,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)
+"{
+  std::vector<int> result;
+  if (start > end) {
+  return result;
+  }else{
+  while (start <= end) {
+  result.push_back(end);
+  end -= diff;
+  }
+  return result;
+  }
+}","{
+  std::vector<int> result;
+  if (start > end) {
+  return result;
+  }else{
+  while (start <= end) {
+  result.push_back(end);
+  end -= diff;
+  }
+  return result;
+  }
+}",CursorKind.COMPOUND_STMT,4,56,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)
+std::vector<int> result;,std::vector<int> result;,CursorKind.DECL_STMT,5,3,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()
+result,std::vector<int> result,CursorKind.VAR_DECL,5,20,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()
+std,std,CursorKind.NAMESPACE_REF,5,3,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()->CursorKind.VAR_DECL(result)
+vector,vector,CursorKind.TEMPLATE_REF,5,8,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()->CursorKind.VAR_DECL(result)
+vector,result,CursorKind.CALL_EXPR,5,20,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.DECL_STMT()->CursorKind.VAR_DECL(result)
+"if (start > end) {
+  return result;
+  }else{
+  while (start <= end) {
+  result.push_back(end);
+  end -= diff;
+  }
+  return result;
+  }",if,CursorKind.IF_STMT,6,3,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()
+start > end,>,CursorKind.BINARY_OPERATOR,6,7,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()
+start,start,CursorKind.UNEXPOSED_EXPR,6,7,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.BINARY_OPERATOR()
+start,start,CursorKind.DECL_REF_EXPR,6,7,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.BINARY_OPERATOR()->CursorKind.UNEXPOSED_EXPR(start)
+end,end,CursorKind.UNEXPOSED_EXPR,6,15,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.BINARY_OPERATOR()
+end,end,CursorKind.DECL_REF_EXPR,6,15,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.BINARY_OPERATOR()->CursorKind.UNEXPOSED_EXPR(end)
+"{
+  return result;
+  }","{
+  return result;
+  }",CursorKind.COMPOUND_STMT,6,20,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()
+return result,return,CursorKind.RETURN_STMT,7,3,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()
+vector,result,CursorKind.CALL_EXPR,7,10,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.RETURN_STMT()
+result,result,CursorKind.UNEXPOSED_EXPR,7,10,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.RETURN_STMT()->CursorKind.CALL_EXPR(vector)
+result,result,CursorKind.DECL_REF_EXPR,7,10,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.RETURN_STMT()->CursorKind.CALL_EXPR(vector)->CursorKind.UNEXPOSED_EXPR(result)
+"{
+  while (start <= end) {
+  result.push_back(end);
+  end -= diff;
+  }
+  return result;
+  }","{
+  while (start <= end) {
+  result.push_back(end);
+  end -= diff;
+  }
+  return result;
+  }",CursorKind.COMPOUND_STMT,8,8,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()
+"while (start <= end) {
+  result.push_back(end);
+  end -= diff;
+  }",while,CursorKind.WHILE_STMT,9,3,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()
+start <= end,<,CursorKind.BINARY_OPERATOR,9,10,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.WHILE_STMT()
+start,start,CursorKind.UNEXPOSED_EXPR,9,10,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.WHILE_STMT()->CursorKind.BINARY_OPERATOR()
+start,start,CursorKind.DECL_REF_EXPR,9,10,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.WHILE_STMT()->CursorKind.BINARY_OPERATOR()->CursorKind.UNEXPOSED_EXPR(start)
+end,end,CursorKind.UNEXPOSED_EXPR,9,19,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.WHILE_STMT()->CursorKind.BINARY_OPERATOR()
+end,end,CursorKind.DECL_REF_EXPR,9,19,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.WHILE_STMT()->CursorKind.BINARY_OPERATOR()->CursorKind.UNEXPOSED_EXPR(end)
+"{
+  result.push_back(end);
+  end -= diff;
+  }","{
+  result.push_back(end);
+  end -= diff;
+  }",CursorKind.COMPOUND_STMT,9,24,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.WHILE_STMT()
+push_back,result.push_back(end),CursorKind.CALL_EXPR,10,3,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.WHILE_STMT()->CursorKind.COMPOUND_STMT()
+push_back,result.push_back,CursorKind.MEMBER_REF_EXPR,10,10,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.WHILE_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.CALL_EXPR(push_back)
+result,result,CursorKind.DECL_REF_EXPR,10,3,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.WHILE_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.CALL_EXPR(push_back)->CursorKind.MEMBER_REF_EXPR(push_back)
+end,end,CursorKind.UNEXPOSED_EXPR,10,20,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.WHILE_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.CALL_EXPR(push_back)
+end,end,CursorKind.DECL_REF_EXPR,10,20,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.WHILE_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.CALL_EXPR(push_back)->CursorKind.UNEXPOSED_EXPR(end)
+end -= diff,-=,CursorKind.COMPOUND_ASSIGNMENT_OPERATOR,11,3,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.WHILE_STMT()->CursorKind.COMPOUND_STMT()
+end,end,CursorKind.DECL_REF_EXPR,11,3,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.WHILE_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.COMPOUND_ASSIGNMENT_OPERATOR()
+diff,diff,CursorKind.UNEXPOSED_EXPR,11,10,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.WHILE_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.COMPOUND_ASSIGNMENT_OPERATOR()
+diff,diff,CursorKind.DECL_REF_EXPR,11,10,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.WHILE_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.COMPOUND_ASSIGNMENT_OPERATOR()->CursorKind.UNEXPOSED_EXPR(diff)
+return result,return,CursorKind.RETURN_STMT,13,3,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()
+vector,result,CursorKind.CALL_EXPR,13,10,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.RETURN_STMT()
+result,result,CursorKind.UNEXPOSED_EXPR,13,10,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.RETURN_STMT()->CursorKind.CALL_EXPR(vector)
+result,result,CursorKind.DECL_REF_EXPR,13,10,CursorKind.TRANSLATION_UNIT(stim13.cpp)->CursorKind.FUNCTION_DECL(sequence)->CursorKind.COMPOUND_STMT()->CursorKind.IF_STMT()->CursorKind.COMPOUND_STMT()->CursorKind.RETURN_STMT()->CursorKind.CALL_EXPR(vector)->CursorKind.UNEXPOSED_EXPR(result)
