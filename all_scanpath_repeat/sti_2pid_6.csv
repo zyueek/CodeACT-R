@@ -1,0 +1,4 @@
+token,line,column,semantic,controlnum,feature,complexity,section
++=.1,5,3,func_dec->compound->while->compound->if->compound->coumpund_assign,2,cal,2,0.333
+x.2,5,11,func_dec->compound->while->compound->if->compound->coumpund_assign,2,cal,2,0.667
+x.3,6,3,func_dec->compound->while->compound->coumpund_assign,1,cal,2,1.0

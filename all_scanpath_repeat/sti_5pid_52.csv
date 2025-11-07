@@ -1,0 +1,17 @@
+token,line,column,semantic,controlnum,feature,complexity,section
+main.1,9,5,func_dec,0,dec,1,0.062
+cout.2,5,8,class_dec->cons->compound->label,0,dec,0,0.125
+std.1,5,5,class_dec->cons->compound->label,0,dec,0,0.188
+Point.2_().1,4,3,class_dec->cons,0,dec,1,0.25
+std.1,5,5,class_dec->cons->compound->label,0,dec,0,0.312
+Point.2_().1,4,3,class_dec->cons,0,dec,1,0.375
+main.1,9,5,func_dec,0,dec,1,0.438
+cout.2,5,8,class_dec->cons->compound->label,0,dec,0,0.5
+t1.1,11,9,func_dec->compound->dec->var_dec,0,dec,1,0.562
+cout.2_called.1,5,8,class_dec->cons->compound->label,0,dec,0,0.625
+cout.2,5,8,class_dec->cons->compound->label,0,dec,0,0.688
+cout.2,5,8,class_dec->cons->compound->label,0,dec,0,0.75
+t1.1,11,9,func_dec->compound->dec->var_dec,0,dec,1,0.812
+cout.2,5,8,class_dec->cons->compound->label,0,dec,0,0.875
+return.1,12,3,func_dec->compound->return,0,return,0,0.938
+cout.2,5,8,class_dec->cons->compound->label,0,dec,0,1.0

@@ -1,0 +1,2 @@
+token,line,column,semantic,controlnum,feature,complexity,section
+operator<<.3_<<.2,7,10,FUNCTION_DECL ->COMPOUND_STMT ->FOR_STMT ->compound->call_exp,0,dec,0,1.0

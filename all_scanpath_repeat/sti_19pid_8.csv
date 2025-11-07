@@ -1,0 +1,15 @@
+token,line,column,semantic,controlnum,feature,complexity,section
+0.1_=.1,4,16,func_dec->compound->dec->var_dec,0,dec,0,0.071
+0.2_&&.1,6,19,func_dec->compound->for->compound->if,2,control,5,0.143
+numbers.2,5,18,func_dec->compound->for,1,control,1,0.214
+4.1_==.2,6,30,func_dec->compound->for->compound->if,2,control,5,0.286
+num.1,5,12,func_dec->compound->for,1,control,1,0.357
+output.1,4,7,func_dec->compound->dec->var_dec,0,dec,0,0.429
+num.1,5,12,func_dec->compound->for,1,control,1,0.5
+numbers.2,5,18,func_dec->compound->for,1,control,1,0.571
+0.2_&&.1,6,19,func_dec->compound->for->compound->if,2,control,5,0.643
+num.6,7,29,func_dec->compound->for->compound->if->compound->coumpund_assign->ref_dec,2,dec,3,0.714
+num.5,7,23,func_dec->compound->for->compound->if->compound->coumpund_assign->ref_dec,2,dec,3,0.786
+num.5,7,23,func_dec->compound->for->compound->if->compound->coumpund_assign->ref_dec,2,dec,3,0.857
+numbers.2,5,18,func_dec->compound->for,1,control,1,0.929
+4.1_==.2,6,30,func_dec->compound->for->compound->if,2,control,5,1.0

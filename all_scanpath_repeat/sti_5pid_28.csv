@@ -1,0 +1,2 @@
+token,line,column,semantic,controlnum,feature,complexity,section
+cout.2,5,8,class_dec->cons->compound->label,0,dec,0,1.0

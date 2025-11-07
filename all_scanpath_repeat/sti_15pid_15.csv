@@ -1,0 +1,9 @@
+token,line,column,semantic,controlnum,feature,complexity,section
+std.3_std::list<int>.2,4,28,func_dec,0,dec,2,0.125
+edited.1,5,17,func_dec->compound->dec->var_dec,0,dec,0,0.25
+std.3_std::list<int>.2,4,28,func_dec,0,dec,2,0.375
+numList.1,4,44,func_dec,0,dec,2,0.5
+edited.2,8,3,func_dec->compound->for->compound->if->compound->call_exp,2,dec,1,0.625
+numList.2,6,18,func_dec->compound->for,1,control,1,0.75
+std.3_std::list<int>.2,4,28,func_dec,0,dec,2,0.875
+numList.1,4,44,func_dec,0,dec,2,1.0

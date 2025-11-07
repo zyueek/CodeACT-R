@@ -1,0 +1,12 @@
+token,line,column,semantic,controlnum,feature,complexity,section
+result.3,10,3,func_dec->compound->if->compound->while->compound->call_exp,2,dec,1,0.091
+diff.2,11,10,func_dec->compound->if->compound->while->compound->coumpund_assign->ref_dec,2,dec,1,0.182
+result.3,10,3,func_dec->compound->if->compound->while->compound->call_exp,2,dec,1,0.273
+diff.2,11,10,func_dec->compound->if->compound->while->compound->coumpund_assign->ref_dec,2,dec,1,0.364
+result.3,10,3,func_dec->compound->if->compound->while->compound->call_exp,2,dec,1,0.455
+diff.2,11,10,func_dec->compound->if->compound->while->compound->coumpund_assign->ref_dec,2,dec,1,0.545
+start.3,9,10,func_dec->compound->if->compound->while,2,control,1,0.636
+result.3,10,3,func_dec->compound->if->compound->while->compound->call_exp,2,dec,1,0.727
+diff.2,11,10,func_dec->compound->if->compound->while->compound->coumpund_assign->ref_dec,2,dec,1,0.818
+result.3,10,3,func_dec->compound->if->compound->while->compound->call_exp,2,dec,1,0.909
+diff.2,11,10,func_dec->compound->if->compound->while->compound->coumpund_assign->ref_dec,2,dec,1,1.0

@@ -1,0 +1,7 @@
+token,line,column,semantic,controlnum,feature,complexity,section
+std.1_std::vector<int>.1,3,17,func_dec,0,dec,3,0.167
+0.3,6,35,func_dec->compound->for->compound->if,2,control,5,0.333
+num.6,7,29,func_dec->compound->for->compound->if->compound->coumpund_assign->ref_dec,2,dec,3,0.5
+4.1_==.2,6,30,func_dec->compound->for->compound->if,2,control,5,0.667
+0.3,6,35,func_dec->compound->for->compound->if,2,control,5,0.833
+num.6,7,29,func_dec->compound->for->compound->if->compound->coumpund_assign->ref_dec,2,dec,3,1.0
