@@ -1,6 +1,8 @@
 
 
-# CodeACT-R: A Cognitive Simulation Framework for Human Attention in Code Reading   <img src="repo/icon.png" alt="CodeACT-R" width="500">
+# CodeACT-R: A Cognitive Simulation Framework for Human Attention in Code Reading   
+
+<img src="repo/icon.png" alt="CodeACT-R" width="200">
 
 This repository reproduces the CodeACT-R simulation pipeline described in the paper **“CodeACT-R: A Cognitive Simulation Framework
 for Human Attention in Code Reading”**.  The Python implementation centers on `simulation.py`, which generates synthetic eye-tracking scanpaths over C++ stimuli while maintaining ACT-R-style cognitive bookkeeping (retrieval requests, buffer updates, and action logs) via the local `pyactr` implementation.
