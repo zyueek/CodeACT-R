@@ -1,0 +1,16 @@
+token,line,column,semantic,controlnum,feature,complexity,section
+1.1,2,42,func_dec->compound->dec->var_dec,0,dec,7,0.067
+size.3,2,51,func_dec->compound->dec->var_dec,0,dec,7,0.133
+expectedSum.2,7,16,func_dec->compound->dec->var_dec,0,dec,1,0.2
+expectedSum.2,7,16,func_dec->compound->dec->var_dec,0,dec,1,0.267
+0.2_arr.5,3,19,func_dec->compound->dec->var_dec,0,dec,0,0.333
+expectedSum.2_+=.1,7,16,func_dec->compound->dec->var_dec,0,dec,1,0.4
+0.2_arr.5,3,19,func_dec->compound->dec->var_dec,0,dec,0,0.467
+expectedSum.2_+=.1,7,16,func_dec->compound->dec->var_dec,0,dec,1,0.533
+0.2_arr.5,3,19,func_dec->compound->dec->var_dec,0,dec,0,0.6
+expectedSum.2,7,16,func_dec->compound->dec->var_dec,0,dec,1,0.667
+1.1,2,42,func_dec->compound->dec->var_dec,0,dec,7,0.733
+expectedSum.2,7,16,func_dec->compound->dec->var_dec,0,dec,1,0.8
+arr.1_i.2,1,18,func_dec,0,dec,1,0.867
+expectedSum.2,7,16,func_dec->compound->dec->var_dec,0,dec,1,0.933
+expectedSum.2,7,16,func_dec->compound->dec->var_dec,0,dec,1,1.0

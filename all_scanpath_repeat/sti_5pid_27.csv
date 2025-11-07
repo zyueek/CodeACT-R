@@ -1,0 +1,7 @@
+token,line,column,semantic,controlnum,feature,complexity,section
+t2.1_*.1,11,14,func_dec->compound->dec->var_dec,0,dec,1,0.167
+Point.3,11,9,func_dec->compound->dec->var_dec,0,dec,1,0.333
+return.1,12,3,func_dec->compound->return,0,return,0,0.5
+Point.3,11,9,func_dec->compound->dec->var_dec,0,dec,1,0.667
+return.1,12,3,func_dec->compound->return,0,return,0,0.833
+t1.1,11,9,func_dec->compound->dec->var_dec,0,dec,1,1.0

@@ -1,0 +1,16 @@
+token,line,column,semantic,controlnum,feature,complexity,section
+cout.2,5,8,class_dec->cons->compound->label,0,dec,0,0.067
+Point.2_().1,4,3,class_dec->cons,0,dec,1,0.133
+std.1,5,5,class_dec->cons->compound->label,0,dec,0,0.2
+cout.2,5,8,class_dec->cons->compound->label,0,dec,0,0.267
+cout.2,5,8,class_dec->cons->compound->label,0,dec,0,0.333
+return.1,12,3,func_dec->compound->return,0,return,0,0.4
+cout.2_<<.1,5,8,class_dec->cons->compound->label,0,dec,0,0.467
+cout.2,5,8,class_dec->cons->compound->label,0,dec,0,0.533
+cout.2,5,8,class_dec->cons->compound->label,0,dec,0,0.6
+Point.2_().1,4,3,class_dec->cons,0,dec,1,0.667
+std.1,5,5,class_dec->cons->compound->label,0,dec,0,0.733
+Point.2_().1,4,3,class_dec->cons,0,dec,1,0.8
+std.1,5,5,class_dec->cons->compound->label,0,dec,0,0.867
+cout.2,5,8,class_dec->cons->compound->label,0,dec,0,0.933
+t2.1_*.1,11,14,func_dec->compound->dec->var_dec,0,dec,1,1.0

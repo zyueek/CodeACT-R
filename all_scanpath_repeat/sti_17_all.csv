@@ -1,0 +1,13 @@
+token,line,column,semantic,controlnum,feature,complexity,section,stimuli,pid
+operator<<.5_aborted.1,10,7,FUNCTION_DECL ->COMPOUND_STMT ->FOR_STMT ->COMPOUND_STMT ->IF_STMT ->compound->call_exp,0,dec,1,1.0,17,21
+operator<<.5_aborted.1,10,7,FUNCTION_DECL ->COMPOUND_STMT ->FOR_STMT ->COMPOUND_STMT ->IF_STMT ->compound->call_exp,0,dec,1,1.0,17,27
+operator<<.3_<<.2,7,10,FUNCTION_DECL ->COMPOUND_STMT ->FOR_STMT ->compound->call_exp,0,dec,0,1.0,17,28
+std.1_std;.1,2,17,USING_DIRECTIVE->ref,0,dec,0,1.0,17,30
+operator<<.2_<<.1,7,7,FUNCTION_DECL ->COMPOUND_STMT ->FOR_STMT ->compound->call_exp,0,dec,0,0.5,17,32
+operator<<.5_aborted.1,10,7,FUNCTION_DECL ->COMPOUND_STMT ->FOR_STMT ->COMPOUND_STMT ->IF_STMT ->compound->call_exp,0,dec,1,1.0,17,32
+operator<<.5_aborted.1,10,7,FUNCTION_DECL ->COMPOUND_STMT ->FOR_STMT ->COMPOUND_STMT ->IF_STMT ->compound->call_exp,0,dec,1,1.0,17,36
+operator<<.5_aborted.1,10,7,FUNCTION_DECL ->COMPOUND_STMT ->FOR_STMT ->COMPOUND_STMT ->IF_STMT ->compound->call_exp,0,dec,1,1.0,17,37
+n.1_n=10.1,5,12,FUNCTION_DECL ->COMPOUND_STMT ->for->unary,1,cal,2,1.0,17,44
+operator<<.5_aborted.1,10,7,FUNCTION_DECL ->COMPOUND_STMT ->FOR_STMT ->COMPOUND_STMT ->IF_STMT ->compound->call_exp,0,dec,1,1.0,17,45
+operator<<.5_aborted.1,10,7,FUNCTION_DECL ->COMPOUND_STMT ->FOR_STMT ->COMPOUND_STMT ->IF_STMT ->compound->call_exp,0,dec,1,1.0,17,55
+operator<<.5_aborted.1,10,7,FUNCTION_DECL ->COMPOUND_STMT ->FOR_STMT ->COMPOUND_STMT ->IF_STMT ->compound->call_exp,0,dec,1,1.0,17,59

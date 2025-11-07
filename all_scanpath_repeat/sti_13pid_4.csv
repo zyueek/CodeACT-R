@@ -1,0 +1,6 @@
+token,line,column,semantic,controlnum,feature,complexity,section
+return.1,7,3,func_dec->compound->if->compound->return,1,return,0,0.2
+start.3,9,10,func_dec->compound->if->compound->while,2,control,1,0.4
+start.3,9,10,func_dec->compound->if->compound->while,2,control,1,0.6
+start.3,9,10,func_dec->compound->if->compound->while,2,control,1,0.8
+result.3,10,3,func_dec->compound->if->compound->while->compound->call_exp,2,dec,1,1.0

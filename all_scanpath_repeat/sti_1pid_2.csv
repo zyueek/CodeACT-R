@@ -1,0 +1,5 @@
+token,line,column,semantic,controlnum,feature,complexity,section
+arr.1_i.2,1,18,func_dec,0,dec,1,0.25
+expectedSum.2,7,16,func_dec->compound->dec->var_dec,0,dec,1,0.5
+arr.1_i.2,1,18,func_dec,0,dec,1,0.75
+expectedSum.2,7,16,func_dec->compound->dec->var_dec,0,dec,1,1.0

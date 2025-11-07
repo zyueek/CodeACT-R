@@ -1,0 +1,2 @@
+token,line,column,semantic,controlnum,feature,complexity,section
+pow.1_std::pow.1,8,10,func_dec->compound->if->compound->return,1,return,4,1.0

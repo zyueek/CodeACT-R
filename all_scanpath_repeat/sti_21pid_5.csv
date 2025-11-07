@@ -1,0 +1,4 @@
+token,line,column,semantic,controlnum,feature,complexity,section
+num2.1,2,25,func_dec,0,dec,1,0.333
+num1.3,4,21,func_dec->compound->if->compound->return,1,return,1,0.667
++.1,4,16,func_dec->compound->if->compound->return,1,return,1,1.0

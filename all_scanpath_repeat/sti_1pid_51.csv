@@ -1,0 +1,11 @@
+token,line,column,semantic,controlnum,feature,complexity,section
+0.2_arr.5,3,19,func_dec->compound->dec->var_dec,0,dec,0,0.1
+actualSum.1,3,7,func_dec->compound->dec->var_dec,0,dec,0,0.2
+0.2,3,19,func_dec->compound->dec->var_dec,0,dec,0,0.3
+expectedSum.2,7,16,func_dec->compound->dec->var_dec,0,dec,1,0.4
+expectedSum.2,7,16,func_dec->compound->dec->var_dec,0,dec,1,0.5
+0.2_arr.5,3,19,func_dec->compound->dec->var_dec,0,dec,0,0.6
+actualSum.1,3,7,func_dec->compound->dec->var_dec,0,dec,0,0.7
+0.2,3,19,func_dec->compound->dec->var_dec,0,dec,0,0.8
+actualSum.2_-.3,7,30,func_dec->compound->dec->var_dec,0,dec,1,0.9
+expectedSum.2,7,16,func_dec->compound->dec->var_dec,0,dec,1,1.0

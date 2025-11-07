@@ -1,0 +1,3 @@
+token,line,column,semantic,controlnum,feature,complexity,section
+0.3,6,35,func_dec->compound->for->compound->if,2,control,5,0.5
+num.6,7,29,func_dec->compound->for->compound->if->compound->coumpund_assign->ref_dec,2,dec,3,1.0
