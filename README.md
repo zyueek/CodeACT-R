@@ -136,7 +136,7 @@ The two simulation patterns correspond to the main experimental configurations r
 - The **zero-shot pattern** approximates the baseline condition, where gaze sequences are generated using macro-level complexity statistics.
 - The **augmented pattern** matches the paper’s data augmentation strategy, leveraging subsets of real scanpaths to seed further synthetic sequences.
 
-The pyACT-R hooks embedded in `overall_sim_pyactr_strict.py` extend the paper’s conceptual model by logging retrieval requests, buffer contents, and action completions for each fixation decision.  These logs do not change the output but provide richer traces for cognitive analysis or downstream tooling.
+The pyACT-R hooks embedded in `simulation.py` extend the paper’s conceptual model by logging retrieval requests, buffer contents, and action completions for each fixation decision.  These logs do not change the output but provide richer traces for cognitive analysis or downstream tooling.
 
 For methodological background (e.g., how complexity metrics are computed, why certain heuristics are employed, and how augmentation affects performance), refer to `ASE_nier__ACTR (1).pdf`.
 
@@ -157,7 +157,7 @@ After generating synthetic scanpaths you can score them against withheld human d
 
 ### Inputs
 
-- `cross_valid_simu*/` – Simulation outputs from `overall_sim_pyactr_strict.py`.
+- `cross_valid_simu*/` – Simulation outputs from `simulation.py`.
 - `all_scanpath_repeat/sti_<ID>_all.csv` – Aggregated human scanpaths per stimulus (evaluation pool).
 - `stim_info/<t>.cpp` and `stim_info/<t>_sem.csv` – Source and semantic annotations for the target.
 
