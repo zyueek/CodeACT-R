@@ -79,7 +79,7 @@ The script assumes you are inside the repository root (`/home/yueke/CodeACT-R`).
 
 ### Zero-shot Example
 ```bash
-python overall_sim_pyactr_strict.py \
+python simulation.py \
   --number 3 \
   --seed 42 \
   --pattern zero \
@@ -94,7 +94,7 @@ cross_valid_simu/stim2_stim1xstim3xstim5_0_aug0_chunk0_seed42_simu.csv
 
 ### Augmented Example
 ```bash
-python overall_sim_pyactr_strict.py \
+python simulation.py \
   --number 5 \
   --seed 7 \
   --pattern aug \
