@@ -129,17 +129,6 @@ Additional ACT-R-inspired state—such as retrieval requests, buffer contents, a
 
 ---
 
-## Relation to the ASE NIER Paper
-
-The two simulation patterns correspond to the main experimental configurations reported in **“ASE NIER: ACT-R based gaze-path generation for source code”**:
-
-- The **zero-shot pattern** approximates the baseline condition, where gaze sequences are generated using macro-level complexity statistics.
-- The **augmented pattern** matches the paper’s data augmentation strategy, leveraging subsets of real scanpaths to seed further synthetic sequences.
-
-The pyACT-R hooks embedded in `simulation.py` extend the paper’s conceptual model by logging retrieval requests, buffer contents, and action completions for each fixation decision.  These logs do not change the output but provide richer traces for cognitive analysis or downstream tooling.
-
-For methodological background (e.g., how complexity metrics are computed, why certain heuristics are employed, and how augmentation affects performance), refer to `ASE_nier__ACTR (1).pdf`.
-
 ---
 
 ## Troubleshooting & Tips
@@ -200,7 +189,7 @@ Arguments mirror the simulator:
 | `pidselect` | IDs of participants whose scanpaths seeded the augmented simulation. |
 | `half_pid` | IDs from the complementary “half chunk” used when seeding evaluation paths. |
 
-#### Zero-shot Output Columns
+#### Zero-Reliance Output Columns
 
 | Column | Description |
 | --- | --- |
